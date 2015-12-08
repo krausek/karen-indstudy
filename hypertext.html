@@ -121,9 +121,13 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/import</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager</li>
 
@@ -531,7 +535,7 @@ Error message and password prompt
 
 <li>Evolving theories of hypertext</li>
 
-<li>Fall2015</li>
+<li>Fall2015Essay</li>
 
 <li>FEBE Protocol</li>
 
@@ -1317,11 +1321,17 @@ Error message and password prompt
 <div modified="20150906165016433" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
 <pre>show</pre>
 </div>
+<div modified="20151208040959866" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<pre>hide</pre>
+</div>
 <div modified="20151108184217829" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
 </div>
-<div modified="20151103014259683" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/import">
-<pre>show</pre>
+<div modified="20151208040946658" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/import">
+<pre>hide</pre>
+</div>
+<div modified="20151208040943659" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
+<pre>hide</pre>
 </div>
 <div modified="20151007225521883" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager">
 <pre>show</pre>
@@ -7062,8 +7072,8 @@ Error message and password prompt
 <div modified="20151103014322959" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/Palette</pre>
 </div>
-<div modified="20151118143927760" title="$:/state/tab--2112689675">
-<pre>$:/core/ui/ControlPanel/Basics</pre>
+<div modified="20151208040915736" title="$:/state/tab--2112689675">
+<pre>$:/core/ui/ControlPanel/Advanced</pre>
 </div>
 <div modified="20151103014347944" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/TiddlerFields</pre>
@@ -7074,13 +7084,13 @@ Error message and password prompt
 <div modified="20151001000111000" title="$:/state/tab-1177037593">
 <pre>$:/core/ui/TiddlerInfo/Tagging</pre>
 </div>
-<div modified="20151118143923486" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Info</pre>
+<div modified="20151208040930271" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
-<div modified="20151208033403757" title="$:/state/tab/moresidebar-401116514">
-<pre>$:/core/ui/MoreSideBar/All</pre>
+<div modified="20151208042619042" title="$:/state/tab/moresidebar-401116514">
+<pre>$:/core/ui/MoreSideBar/Missing</pre>
 </div>
-<div modified="20151208033447938" title="$:/state/tab/sidebar--1835078512">
+<div modified="20151208042631706" title="$:/state/tab/sidebar--1835078512">
 <pre>Contents</pre>
 </div>
 <div modified="20151103014303592" title="$:/state/tabs/controlpanel/toolbars-1345989671">
@@ -7203,7 +7213,7 @@ Error message and password prompt
 <div modified="20151206190139919" title="$:/state/toc/Rosenberg1994Physics-tropes-209360082">
 <pre>close</pre>
 </div>
-<div list="Fall2015" title="$:/StoryList">
+<div list="text-hyper-wiki-tiddly Welcome-TiddlerGuide Fall2015Essay" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20150923022300184" modified="20150923114407243" title="$:/temp/advancedsearch">
@@ -7232,8 +7242,8 @@ Error message and password prompt
 <div created="20151007000427069" modified="20151206165800452" title="$:/temp/RenameTags/search">
 <pre>physics tropes</pre>
 </div>
-<div created="20150917001545881" modified="20151208034754870" title="$:/temp/search">
-<pre>civilization</pre>
+<div created="20150917001545881" modified="20151208040312658" title="$:/temp/search">
+<pre></pre>
 </div>
 <div modified="20150906163510155" title="$:/theme">
 <pre>$:/themes/tiddlywiki/snowwhite</pre>
@@ -8165,7 +8175,7 @@ Contained within:
 
 ''Page:'' {{!!pagenum}}</pre>
 </div>
-<div created="20151124201101680" modified="20151208040151361" source="Baron, N. (2015). Words Onscreen: The Fate of Reading in a Digital World. New York, New York: Oxford University Press." tags="hypertext Contents" title="Fall2015">
+<div created="20151124201101680" modified="20151208043222539" source="Baron, N. (2015). Words Onscreen: The Fate of Reading in a Digital World. New York, New York: Oxford University Press." tags="hypertext Contents" title="Fall2015Essay">
 <pre>''Introduction - A brief &lt;&lt;tag &quot;narrative&quot;&gt;&gt;:''
 
 I'd like to start by quoting Naomi Baron, author of //Words ~OnScreen//: 
@@ -8184,10 +8194,9 @@ However, through all of that, and with Dr. Schneider's guidance, I created somet
 
 ''How to navigate this project:''
 
+*Clicking on any colored tag will produce a drop-down menu of the tag itself (which will have a definition relating to hypertext) as well as a listing of all tiddlers with that same tag.
 * //Every tiddler// is tagged to &lt;&lt;tag &quot;hypertext&quot;&gt;&gt;; click on the green hypertext button, or [[click on this hyperlinked phrase|All links to hypertext tag]].
-
 * Every &lt;&lt;tag &quot;Author&quot;&gt;&gt; is linked to a &lt;&lt;tag &quot;Reference&quot;&gt;&gt;, every reference is tagged to an author's work, in an &quot;Author Last Name-Year Published-Literature Name&quot; format.
-
 *Tags are in a multitude of colors; this is intentional for the reader to pick out tagging similarities within the tiddlers:
 **blue for author's last name (ex: &lt;&lt;tag &quot;Aarseth&quot;&gt;&gt;)
 **dark blue for author's work (ex: &lt;&lt;tag &quot;Aarseth1994Nonlinearity&quot;&gt;&gt;)
@@ -8195,13 +8204,19 @@ However, through all of that, and with Dr. Schneider's guidance, I created somet
 **lavender for &lt;&lt;tag &quot;TiddlerTypes&quot;&gt;&gt;; the kinds of descriptive tiddlers that are within this project, not directly related to an author or hypertextual idea
 **yellow for &lt;&lt;tag &quot;definitions&quot;&gt;&gt; of [[four key concepts|text-hyper-wiki-tiddly]] that Dr. Schneider has identified
 **bright green for &lt;&lt;tag &quot;techniques&quot;&gt;&gt; needed to [[effectively write in hypertext|seven key words to writing in hypertext]], ones that Dr. Schneider has also identified
+*For those who are more linearly minded, check out the &quot;Contents&quot; tab on the right side of the screen; I've created links for this essay, all References, the aforementioned Dr. Schneider concepts and techniques, recurrent themes in the readings and tiddler-types.
+*Click on the carrots &quot;&gt;&quot; (as applicable) to dive deeper into an area.
+*The little house icon underneath the title will bring you back to the home tiddler... but watch out!  It'll close out everything else that you're reading.
+*The four &quot;x&quot; in a square closes out every tiddler that you have opened, resulting in a blank left side (quite helpful if you have a lot of tiddlers open and it becomes overwhelming.)
+*The tag icon is a tag manager- clicking on that will produce a list of every single tag used, its color and the frequency of it being used in this project.
+*The circle and check mark is to &quot;save changes.&quot;  As you'll be viewing this in a read-only mode, it won't be applicable to anything that you need.
 
 -----
 ''What I've learned from working with hypertext:''
 
 *The beginning of my hypertext journey can be found [[here|https://dl.dropboxusercontent.com/s/nyh5op5qv1tykbj/krausek.html?dl=0]], from Summer 2015.
 *Also during Fall 2015, in //IDT 507: Information Technologies,// [[this|http://krausek.github.io/karen-indstudy/memes.html#]] and [[this|http://krausek.github.io/karen-indstudy/socialmedia.html#]] were created.
-*So why include examples of past projects?  Because it demonstrates my continuous learning and understanding of reading and writing hypertextually; each project achieves something different, while still using the same base platform.
+*So why include examples of past projects?  Because it demonstrates my continuous learning and understanding of reading and writing hypertextually; each project achieves something different, utilizes hypertext in similar yet differing ways, and uses the same base platform, ~TiddlyWiki!
 
 -----
 ''What I've learned from this project:''
@@ -8211,13 +8226,15 @@ However, through all of that, and with Dr. Schneider's guidance, I created somet
 **But yes, indeed, they do exist.  People have built ideas of new civilizations around the ideas of hypertext... just look at Nelson's [[Connections for the betterment of the world]].
 
 *I dare to say that there is //almost// a cult-like following regarding hypertext theory.
-**Overall, authors are optimistic and expressive that hypertext can enhance our society and is the best option for preserving our history.
-**Again for this, we look at &lt;&lt;tag &quot;Nelson&quot;&gt;&gt;'s [[Hypertext as a computing organization solution]] and [[Systems humanists]].
+**Overall, most authors are optimistically expressive that hypertext can enhance our society and that it is the best option for preserving our history.
+**For this, we can look at &lt;&lt;tag &quot;Nelson&quot;&gt;&gt;'s [[Hypertext as a computing organization solution]] and [[Systems humanists]].
 
+*I truly enjoyed seeing how so many different academic areas have applied their own theories back to hypertext, including but not limited to physics, mathematics, and philosophy.
+** The importance in this was finding commonality between the authors' thoughts... the &lt;&lt;tag &quot;Linking&quot;&gt;&gt; has been nothing short of incredible!
 
-* what i've learned through this project... reading all the theory, finding commonality between the authors thoughts
-
-*the importance of tying this back to text-hyper-wiki-tiddly... maybe how I incorporated all of this backwards?!
+*Although this project made sense overall throughout the time I've spent on it [not to say I wasn't confused and thrown for a (&lt;&lt;tag &quot;hyper&quot;&gt;&gt;?) loop a few times], it was truly in the last few weeks that everything tied together, when Dr. Schneider asked me to tie in his [[four words|text-hyper-wiki-tiddly]] and [[hypertext techniques|seven key words to writing in hypertext]] back to the literature.
+**In some ways, it felt that I worked on all of this backwards, by starting with the literature and then seeing how it fit in with the theories... but that's the beauty of &lt;&lt;tag &quot;hypertext&quot;&gt;&gt;, it's &lt;&lt;tag &quot;nonlinear&quot;&gt;&gt; and you can go in any direction you'd like; there isn't a right or a wrong path.
+**I also caught myself adding a new tag and another reference... in hypertext, it never truly //feels// like the work is finished.  But, with 501 tiddlers total, I'm going to admit &lt;&lt;tag &quot;closure&quot;&gt;&gt; for this project and thank you for your time in viewing this!
 
 
 </pre>
@@ -10573,7 +10590,7 @@ Paul Ricoeur
 
 ''Chapter:'' {{!!chapnum}}, ''Sub Chapter:'' {{!!subchapname}}, ''Page:'' {{!!pagenum}}</pre>
 </div>
-<div created="20150927172303541" modified="20151208013423380" tags="hypertext" title="Welcome-TiddlerGuide">
+<div created="20150927172303541" modified="20151208042606268" tags="hypertext" title="Welcome-TiddlerGuide">
 <pre>![[Hello!]]
 !!Welcome to my Fall 2015 independent study!
 
@@ -10583,7 +10600,7 @@ Under [[Dr. Schneider's|https://dl.dropboxusercontent.com/u/7301528/steve/index.
 
 {{HypertextImage}}
 
-Be sure to check out my [[essay|Fall2015]] if you're new to ~TiddlyWiki, and for guidance in navigating this project.
+Be sure to check out my [[essay|Fall2015Essay]] if you're new to ~TiddlyWiki, and for guidance in navigating this project.
 
 !!!Enjoy!</pre>
 </div>
