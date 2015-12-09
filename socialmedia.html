@@ -175,10 +175,6 @@ Error message and password prompt
 
 <li>$:/temp/info-plugin</li>
 
-<li>$:/temp/newfieldname</li>
-
-<li>$:/temp/newfieldvalue</li>
-
 <li>$:/temp/NewTagName</li>
 
 <li>$:/temp/random</li>
@@ -306,6 +302,8 @@ Error message and password prompt
 <li>Boyd</li>
 
 <li>brain states</li>
+
+<li>Breakdown of users across popular platforms</li>
 
 <li>channels</li>
 
@@ -6301,7 +6299,7 @@ AlternativeNavigation
 <div modified="20151124192408106" title="$:/state/tabs/controlpanel/toolbars-1345989671">
 <pre>$:/core/ui/ControlPanel/Toolbars/EditToolbar</pre>
 </div>
-<div list="[[Survey: Generations]] [[Survey: Best self image with which platform]] [[Survey: Communicating in Social Media]] [[Survey: Social Media Influences with Personal Communications]] [[Survey: Three words to describe self]] [[Survey: Using Social Media or Not]] Survey" title="$:/StoryList">
+<div list="[[Generational breakdown of social media usage]] [[Breakdown of users across popular platforms]] [[Survey: Best self image with which platform]] [[Survey: Social Media Influences with Personal Communications]] [[Survey: Three words to describe self]] [[Survey: Using Social Media or Not]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -6317,12 +6315,6 @@ AlternativeNavigation
         }
     }
 }</pre>
-</div>
-<div modified="20151209182312531" title="$:/temp/newfieldname">
-<pre>source</pre>
-</div>
-<div created="20151209182313752" modified="20151209182313752" title="$:/temp/newfieldvalue">
-<pre>http://www.entrepreneur.com/article/228029</pre>
 </div>
 <div created="20151129192355325" modified="20151209175442414" title="$:/temp/NewTagName">
 <pre></pre>
@@ -6563,8 +6555,8 @@ At this point it is largely for experimentation by @zooko.
 <div created="20151124192706691" modified="20151124192706691" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
 <pre>$:/plugin/ajh/randombackground/background0</pre>
 </div>
-<div created="20151209143955620" modified="20151209182513884" title="$:/temp/search">
-<pre>survey</pre>
+<div created="20151209143955620" modified="20151209182914932" title="$:/temp/search">
+<pre>image</pre>
 </div>
 <div created="20151124192704304" modified="20151124192704304" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/http://tiddlywiki.com/library/v5.1.9/index.html" url="http://tiddlywiki.com/library/v5.1.9/index.html">
 <pre>loaded</pre>
@@ -6687,8 +6679,10 @@ To maximize attention, Facebook designs algorithms to perfect the gossip machine
 
 LOCATION: 3386 </pre>
 </div>
-<div created="20151209182255549" modified="20151209182356746" tags="Image" title="Adults vs. Teens infographic">
-<pre>[img width=500 [https://raw.githubusercontent.com/krausek/karen-indstudy/gh-pages/socialmedia%20images/the-real-generation-gap-how-adults.jpg]]</pre>
+<div created="20151209182255549" modified="20151209183005436" source="http://www.entrepreneur.com/article/228029" tags="Image" title="Adults vs. Teens infographic">
+<pre>[img width=500 [https://raw.githubusercontent.com/krausek/karen-indstudy/gh-pages/socialmedia%20images/the-real-generation-gap-how-adults.jpg]]
+
+''Source:'' {{!!source}}</pre>
 </div>
 <div created="20151129192636873" modified="20151129193551665" tags="Theory" title="Affordance Theory">
 <pre>Affordances of using social media as a tool for projecting one’s identity
@@ -6747,6 +6741,11 @@ Second, they offer an anticipatory thrill. location 1731
 Third, these sites offer small pieces of information. location 1734
 
 Finally, there's unpredictability. location 1736 </pre>
+</div>
+<div created="20151209182846194" modified="20151209183108861" source="http://wersm.com/choosing-the-right-social-media-platform/#!prettyPhoto" tags="Image" title="Breakdown of users across popular platforms">
+<pre>[img width=500 [https://raw.githubusercontent.com/krausek/karen-indstudy/gh-pages/socialmedia%20images/Social-infographic1.png]]
+
+''Source:'' {{!!source}}</pre>
 </div>
 <div created="20151206113906594" modified="20151206113915812" tags="[[Rainie &amp; Wellman]]" title="channels">
 <pre>individual social-media channels seem to have their own news agenda and personality.
@@ -7129,7 +7128,7 @@ LOCATION: 3067
 
 NOTE: Based on a survey from &quot;American Sociological Review&quot; comparing data of communication in varied relationships, comparing data from 1984 survey and 2005 survey; interpersonal communications decreased significantly. </pre>
 </div>
-<div created="20151129192538046" modified="20151209151858290" question="Which social media platform do you feel allows you to best portray yourself and your ideals?  Why?" tags="Survey" title="Survey: Best self image with which platform">
+<div created="20151129192538046" modified="20151209183219225" question="Which social media platform do you feel allows you to best portray yourself and your ideals?  Why?" tags="Survey" title="Survey: Best self image with which platform">
 <pre>''Question:'' {{!!question}}
 
 ''Responses:'' //(paraphrased, from 4 responders)//
@@ -7140,7 +7139,7 @@ NOTE: Based on a survey from &quot;American Sociological Review&quot; comparing 
 # &quot;I do not use any of the platforms.&quot;
 
 
-[[Let's look at the other questions and responses.|Survey]]</pre>
+!![[Let's look at the other questions and responses.|Survey]]</pre>
 </div>
 <div created="20151129192519463" modified="20151209182458098" question="Do you find yourself using different social media platforms for different communicative purposes?  Why or why not?" tags="Survey" title="Survey: Communicating in Social Media">
 <pre>''Question:'' {{!!question}}
@@ -7168,7 +7167,7 @@ NOTE: Based on a survey from &quot;American Sociological Review&quot; comparing 
 
 !![[Let's look at the other questions and responses.|Survey]]</pre>
 </div>
-<div created="20151129192555690" modified="20151206122702642" question="What social media platform(s) has(have) most influenced the way you communicate today?" tags="Survey" title="Survey: Social Media Influences with Personal Communications">
+<div created="20151129192555690" modified="20151209183152020" question="What social media platform(s) has(have) most influenced the way you communicate today?" tags="Survey" title="Survey: Social Media Influences with Personal Communications">
 <pre>''Question:'' {{!!question}}
 
 ''Responses:'' //(from 4 responders)//
@@ -7188,10 +7187,11 @@ NOTE: Based on a survey from &quot;American Sociological Review&quot; comparing 
 *''NONE: 2''
 *Write in: _ _ _ _
 
+!!![[Breakdown of users across popular platforms]]
 
-[[Let's look at the other questions and responses.|Survey]]</pre>
+!![[Let's look at the other questions and responses.|Survey]]</pre>
 </div>
-<div created="20151129192351680" modified="20151209151849570" question="What three words would you use to characterize yourself to others? Would those three words change if you were asked to publicize them through social media?  If they did change because of the social media factor, what would you change them to?" tags="Survey" title="Survey: Three words to describe self">
+<div created="20151129192351680" modified="20151209183206413" question="What three words would you use to characterize yourself to others? Would those three words change if you were asked to publicize them through social media?  If they did change because of the social media factor, what would you change them to?" tags="Survey" title="Survey: Three words to describe self">
 <pre>''Question:'' {{!!question}}
 
 ''Responses:'' //(paraphrased, from 4 responders)//
@@ -7201,7 +7201,7 @@ NOTE: Based on a survey from &quot;American Sociological Review&quot; comparing 
 # &quot;determined, stubborn, compassionate / ''YES;  I am a lot more open and honest a person when I am on my social media accounts'' / gamer, reader &amp; religious.&quot;
 # &quot;reliable, trustworthy, innovative /  ''NO''&quot; 
 
-[[Let's look at the other questions and responses.|Survey]]</pre>
+!![[Let's look at the other questions and responses.|Survey]]</pre>
 </div>
 <div created="20151129192430433" modified="20151209150744754" question="Why do you use social media platforms? (or, if you don’t use any platforms, why?)" tags="Survey" title="Survey: Using Social Media or Not">
 <pre>''Question:'' {{!!question}}
