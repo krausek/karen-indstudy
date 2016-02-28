@@ -1,0 +1,32 @@
+[
+  {
+    "FIELD1":"title",
+    "FIELD2":"tags",
+    "FIELD3":"text",
+    "FIELD4":"sort"
+  },
+  {
+    "FIELD1":"ethnicity",
+    "FIELD2":"dimension",
+    "FIELD3":"<<taggly>>",
+    "FIELD4":"activity"
+  },
+  {
+    "FIELD1":"activity",
+    "FIELD2":"dimension",
+    "FIELD3":"<<taggly>>",
+    "FIELD4":"location"
+  },
+  {
+    "FIELD1":"location",
+    "FIELD2":"dimension",
+    "FIELD3":"<<taggly>>",
+    "FIELD4":"ethnicity"
+  },
+  {
+    "FIELD1":"dimension",
+    "FIELD2":"",
+    "FIELD3":"<<taggly>>",
+    "FIELD4":"dimension"
+  }
+]

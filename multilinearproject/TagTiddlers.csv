@@ -1,0 +1,5 @@
+title,tags,text,sort
+ethnicity,dimension,<<taggly>>,activity
+activity,dimension,<<taggly>>,location
+location,dimension,<<taggly>>,ethnicity
+dimension,,<<taggly>>,dimension
