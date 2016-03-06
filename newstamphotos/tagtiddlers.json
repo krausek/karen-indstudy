@@ -1,0 +1,26 @@
+[
+  {
+    "title":"ethnicity",
+    "tags":"dimension",
+    "text":"<<taggly>>",
+    "sort":"activity"
+  },
+  {
+    "title":"activity",
+    "tags":"dimension",
+    "text":"<<taggly>>",
+    "sort":"location"
+  },
+  {
+    "title":"location",
+    "tags":"dimension",
+    "text":"<<taggly>>",
+    "sort":"ethnicity"
+  },
+  {
+    "title":"dimension",
+    "tags":"",
+    "text":"<<taggly>>",
+    "sort":"dimension"
+  }
+]
